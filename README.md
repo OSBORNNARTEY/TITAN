@@ -1,5 +1,7 @@
 # 🛡️ TITAN - Ransomware Simulation Tool (Java)
 
+<img src="needed.png" alt="Screenshot" width="1200" height="600"/>
+
 **TITAN** is a simulated ransomware program written in Java for educational and research purposes. It demonstrates key aspects of ransomware behavior such as file discovery, encryption, OS targeting, and a fullscreen graphical warning interface, mimicking real-world ransomware attacks in a safe environment.
 
 > ⚠️ **WARNING:** This program performs real encryption and file deletion. **Use only in a virtual machine or sandbox environment with test files. Do not run on a personal or production system.**
@@ -45,21 +47,7 @@ Files found in the `Documents` directory will be encrypted and deleted, then rep
 
 ## 📦 Dependencies
 
-Make sure to include:
-
-- [Apache Commons IO](https://commons.apache.org/proper/commons-io/)
-- JavaFX (bundled or modular)
-- A working `CryptoUtils.java` with:
-  - `encrypt(String key, File input, File output)`
-  - `decrypt(String key, File input, File output)`
-
----
-
-## 🖼️ GUI Preview
-
-> When run, TITAN takes over the screen with a fullscreen black window featuring a green binary Matrix-style background, ransom ASCII art, a decryption key input, and a countdown-style message demanding payment.
-
-> _Add screenshot here if available._
+- Java 22+
 
 ---
 
