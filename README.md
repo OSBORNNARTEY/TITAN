@@ -40,11 +40,7 @@ Files found in the `Documents` directory will be encrypted and deleted, then rep
 
 ## ⚙️ Requirements
 
-- Java 8+
-- JavaFX runtime (for GUI rendering)
-- Apache Commons IO
-- Custom `CryptoUtils.java` class (you must provide this)
-
+- Java 22+
 ---
 
 ## 📦 Dependencies
@@ -70,5 +66,4 @@ Make sure to include:
 ## 🏁 Running TITAN
 
 ```bash
-javac -cp ".;commons-io-2.11.0.jar" com/company/one.java
-java -cp ".;commons-io-2.11.0.jar" com.company.one
+java -jar Titan.jar
